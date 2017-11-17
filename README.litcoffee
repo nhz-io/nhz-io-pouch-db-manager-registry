@@ -143,7 +143,7 @@ const Registry = require('@nhz.io/pouch-db-manager-registry')
       t.ok new Registry { types: ['a'], queues: ['b'] }
 
 
-## Version 0.0.0
+## Version 0.1.0
 
 ## License [MIT](LICENSE)
 
