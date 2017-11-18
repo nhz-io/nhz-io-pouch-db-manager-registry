@@ -20,7 +20,7 @@ const Registry = require('@nhz.io/pouch-db-manager-registry')
 
 ### Imports
 
-    { urlname, allpass } = require '@nhz.io/pouch-db-manager-helpers'
+    { urlname, allpass, mkkey, priority } = require '@nhz.io/pouch-db-manager-helpers'
 
 ### Resource
 
@@ -61,6 +61,10 @@ const Registry = require('@nhz.io/pouch-db-manager-registry')
           resource.remote = resource.local
 
           resource.name = resource.local = urlname resource.local
+
+        resource.key = mkkey resource
+
+        resource
 
       register: (resource) ->
 
