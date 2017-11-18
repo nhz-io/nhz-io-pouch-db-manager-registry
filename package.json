@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/pouch-db-manager-registry",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "PouchDB Manager Registry",
   "main": "index.js",
   "scripts": {
@@ -42,6 +42,6 @@
     "tape-async": "^2.3.0"
   },
   "dependencies": {
-    "@nhz.io/pouch-db-manager-helpers": "^0.1.0"
+    "@nhz.io/pouch-db-manager-helpers": "^0.1.7"
   }
 }
