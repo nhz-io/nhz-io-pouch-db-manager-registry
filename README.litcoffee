@@ -20,7 +20,7 @@ const Registry = require('@nhz.io/pouch-db-manager-registry')
 
 ### Imports
 
-    { urlname, allpass, mkkey, priority } = require '@nhz.io/pouch-db-manager-helpers'
+    { urlname, allPass, mkkey, priority } = require '@nhz.io/pouch-db-manager-helpers'
 
 ### Resource
 
@@ -86,7 +86,7 @@ const Registry = require('@nhz.io/pouch-db-manager-registry')
 
       find: (query, predicates = []) ->
 
-        match = allpass [
+        match = allPass [
 
           if query.type then (resource) -> resource.type?.match query.type
 
