@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/pouch-db-manager-registry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PouchDB Manager Registry",
   "main": "index.js",
   "scripts": {
